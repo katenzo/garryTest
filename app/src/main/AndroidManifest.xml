@@ -8,14 +8,6 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MyActivity"
-            android:label="@string/app_name">
-
-        </activity>
-        <activity
-            android:name=".SecondActivity"
-            android:label="@string/title_activity_second"></activity>
-        <activity
             android:name=".TemperaturConverterActivity"
             android:label="@string/title_activity_temperatur_converter">
             <intent-filter>
