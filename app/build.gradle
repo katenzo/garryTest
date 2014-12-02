@@ -10,7 +10,9 @@ android {
         targetSdkVersion 20
         versionCode 1
         versionName "1.0"
+
     }
+
     buildTypes {
         release {
             runProguard false
@@ -21,4 +23,9 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.jayway.android.robotium:robotium-solo:5.2.1'
 }
+
+
+
+
